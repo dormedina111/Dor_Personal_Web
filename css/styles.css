@@ -1,0 +1,166 @@
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+}
+body{
+  background-color: #D6EFED;
+  font-size: 1.2rem;
+}
+hr{
+  border: dotted #4f5151 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 5% auto;
+  
+}
+h1 {
+    color: #170d78;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+h2 {
+    color: #170d78;
+  }
+h3 {
+    color: #170d78;
+    font-size: 1.5rem;
+  }
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+  /*Navigation Bar*/
+
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+
+  /* Dor medina */
+  .navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color:#170d78;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+  }
+
+  /* nav items */
+  .nav-link{
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#170d78;
+  }
+
+ /*nav toggler */
+ .navbar-toggler-icon{
+    background-color:#94def7;
+  }
+
+.dor-img{
+  width: 70%;
+}
+
+
+
+/* Sections */
+#contact{
+  padding: 1% 40%;
+}
+
+#hobbies{
+  /*margin-left: 35%;
+*/
+
+
+
+}
+#hobtab{
+  text-align: center;
+  ;
+}
+
+#hob-raw{
+  text-align: center;
+  margin-right: 35%;
+}
+
+#about{
+  padding: 2% 15%;
+}
+
+#education{
+  padding: 3% 15%;
+}
+
+#work{
+  padding: 3% 15%;
+}
+#footer{
+  padding: 3% 15%;
+}
+
+
+table { 
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+  /* My skills images --> **/
+  
+  .skill-row{
+    width: 50%;
+    text-align: left;
+  }
+  .java-img{
+    width: 10%;
+    float: left;
+    margin-right: 5%;
+  }
+  .c-img{
+    width: 10%;
+    float: left;
+    margin-right: 5%;
+  }
+  .bash-img{
+    width: 10%;
+    float: left;
+    margin-right: 5%;
+  }
+.py-img{
+    width: 10%;
+    float: left;
+    margin-right: 5%;
+}
+.js-img{
+    width: 10%;
+    float: left;
+    margin-right: 5%;
+}
+.code-img{
+    width: 10%;
+    float: left;
+    margin-right: 5%;
+}
+
+/* My hobbies images --> **/
+
+.maccabi-img{
+    width: 10%;
+    float: left;
+       
+  }
+  .running-img{
+    width: 10%;
+    float: left;
+  }
+  .tony-img{
+    width: 10%;
+    float: left;
+  }
+  

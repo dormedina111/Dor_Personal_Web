@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <script src="contact.js" defer></script>
+
+</head>
+<section id="contact">
+<body>
+  <h1>My Contact Details</h1>
+  <p><em><strong>Email:</strong> Dormedina111@gmail.com</em></p>
+  <p><em><strong>Phone:</strong> +972502345977</em></p>
+  
+  <form name="myForm" action="mailto:dormedina111@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+    <label for=""> Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label for="">Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label for="">Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="" value="Submit">
+  </form>
+
+</body>
+</section>
+</html>
